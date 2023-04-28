@@ -1,0 +1,12 @@
+@import url(normalize.css);
+@import url(global.css);
+@import url(var/var.css);
+@import url(header/header.css);
+@import url(our/our.css);
+@import url(halls/halls.css);
+@import url(booking/booking.css);
+@import url(about/about.css);
+@import url(request/request.css);
+@import url(questions/questions.css);
+@import url(contacts/contacts.css);
+@import url(../assets/css/style.css);
