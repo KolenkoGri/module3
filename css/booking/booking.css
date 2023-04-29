@@ -97,6 +97,7 @@
     padding: 4px 17px;
     position: relative;
     border: 3px solid var(--default);
+    transition: 1s;
 }
 
 .booking__title {
