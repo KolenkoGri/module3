@@ -84,6 +84,9 @@
     .what__info {
         margin-bottom: 100px;
         column-gap: 80px;
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .what__img {

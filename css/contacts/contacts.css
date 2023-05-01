@@ -257,6 +257,9 @@
         display: flex;
         justify-content: space-between;
         column-gap: 60px;
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contacts__locate {
@@ -304,5 +307,11 @@
 
     .contacts__text-author--three {
         padding-bottom: 21px;
+    }
+
+    .contacts__text {
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
