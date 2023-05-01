@@ -102,6 +102,8 @@
     }
     .our__container {
         gap: 22px 30px;
+        max-width: 904px;
+        margin: 0 auto;
     }
     
     .our__block {
@@ -126,8 +128,12 @@
     }
 
     .our__block:nth-child(2), .our__block:nth-child(5) {
-        /* position: absolute; */
+        position: relative;
         top: 70px;
+    }
+
+    .our__block:nth-child(5) {
+        margin-bottom: 70px;
     }
 }
 
@@ -140,6 +146,7 @@
 
     .our__container {
         gap: 40px 20px;
+        max-width: 1180px;
     }
     
     .our__block {

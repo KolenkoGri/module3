@@ -229,6 +229,7 @@
         min-height: 191px;
         font-size: 44px;
         line-height: 50px;
+        padding-left: 78px;
     }
     
     .about__slogan::before,.about__slogan::after {
@@ -252,9 +253,14 @@
         min-height: 84px;
         font-size: 20px;
         line-height: 28px;
+        margin-right: 10px;
     }
 
     .about {
         margin-bottom: 100px;
+    }
+
+    .about__slogan::before {
+        margin-left: -30px;
     }
 }

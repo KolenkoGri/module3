@@ -174,28 +174,36 @@
                         <fieldset class="booking__date-time">
                             <legend class="booking__title booking__title--mb">Выбери дату и время</legend>
                             <div class="booking__info">
-                                <label class="booking__legend booking__legend--arrow" for="date"> 
-                                    <input type="text" class="booking__day-time booking__day-time--mini" name="date" id="date" placeholder="Дата" >
-                                </label>
-                                <label class="booking__legend  booking__legend--arrow" for="time">
-                                    <input type="text" class="booking__day-time booking__day-time--mini" name="time" id="time" placeholder="Время" >
-                                </label>
+                                <!-- <label class="booking__legend booking__legend--arrow" for="date">  -->
+                                    <input type="date" class="booking__day-time booking__day-time--mini" name="date" id="date" placeholder="Дата" >
+                                <!-- </label> -->
+                                <!-- <label class="booking__legend  booking__legend--arrow" for="time"> -->
+                                    <input type="time" class="booking__day-time booking__day-time--mini" name="time" id="time" placeholder="Время" >
+                                <!-- </label> -->
                             </div>
 
-                            <label class="booking__legend  booking__legend--arrow booking__legend--people" for="people">
-                                <input class="booking__day-time booking__day-time--long-very booking__legend--people" type="text"  name="people" id="people" placeholder="Сколько человек" required>
-                            </label>
+                            <!-- <label class="booking__legend  booking__legend--arrow booking__legend--people" for="people"> -->
+                                <select class="booking__day-time booking__day-time--long-very booking__legend--people" name="people" id="people" required>
+                                    <option value="">Сколько человек ?</option>
+                                    <option value="10">До 10</option>
+                                    <option value="20">До 20</option>
+                                    <option value="30">До 30</option>
+                                    <option value="40">До 40</option>
+                                    <option value="50">До 50</option>
+                                    <option value="60">60 и более</option>
+                                </select>
+                                <!-- </label> -->
                             <label class="booking__legend booking__legend--name" for="name">Имя 
                                 <input class="booking__day-time booking__day-time--long" type="text"  name="name" id="name" required>
                             </label>
                             <label class="booking__legend booking__legend--phone" for="phone">Телефон
-                                <input class="booking__day-time booking__day-time--long" type="text"  name="phone" id="phone" required>
+                                <input class="booking__day-time booking__day-time--long booking__day-time--tel" type="tel"  name="phone" id="phone" required>
                             </label>
                             <label class="booking__legend booking__legend--surname" for="surname">Фамилия 
                                 <input class="booking__day-time booking__day-time--long" type="text"  name="surname" id="surname" required>
                             </label>
                             <label class="booking__legend booking__legend--email" for="E-mail">E-mail
-                                <input class="booking__day-time booking__day-time--long-very" type="text" name="e-mail" id="E-mail">
+                                <input class="booking__day-time booking__day-time--long-very" type="email" name="e-mail" id="E-mail">
                             </label>
                         </fieldset>
                         <div class="booking__btn-submit">
@@ -213,7 +221,7 @@
                             <br>
                         Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
                         <img class="about__image" src="css/about/image/about.png" alt="Наши развлечения">
-                        <p class="about__slogan"><strong>GAME OVER — </strong> это место незабываемых впечатлений</p>
+                        <p class="about__slogan">GAME OVER — это место незабываемых впечатлений</p>
                         <blockquote class="about__citate">
                             <img class="about__image-ceo" src="css/about/image/seo_photo.png" alt="Создатель игровой платформы">
                                 <p class="about__author"> 
@@ -227,7 +235,7 @@
             </section>
             
             <section class="request" id="request">
-                <div class="container">
+                <div class="container request__container">
                     <h2 class="request__title">Отзывы посетителей</h2>
                     <ul>
                         <li class="request__figure">
@@ -257,7 +265,7 @@
                 </div>
             </section>
             <section class="questions">
-                <div class="container">
+                <div class="container questions__container">
                     <h2 class="questions__title">Частые вопросы</h2>
                     <ul class="questions__list">
                         <li class="questions__item questions__item--white">Можно ли забронировать комнату онлайн?
@@ -295,7 +303,7 @@
             </section>
         </main> 
         <footer class="contacts" id="contacts">
-            <div class="container">
+            <div class="container contacts__container">
                 <h2 class="contacts__title">Контакты</h2>
                 <div class="contacts__all">
                     <div class="contacts__information">

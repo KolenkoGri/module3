@@ -241,6 +241,10 @@
 }
 
 @media (min-width:1440px) {    
+    .contacts__container {
+        max-width: 1440px;
+    }
+
     .contacts__title {
         padding-top: 55px;
         min-height: 56px;
@@ -293,6 +297,11 @@
         margin-bottom: 145px;
         max-width: 680px;
     }  
+
+    .contacts__text-author {
+        text-align: right;
+    }
+
     .contacts__text-author--three {
         padding-bottom: 21px;
     }

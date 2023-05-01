@@ -513,6 +513,8 @@
 
     .header__list {
         column-gap: 96px;
+        margin: 0 auto;
+        max-width: 1140px;
         margin-bottom: 50px;
     }
 
@@ -543,7 +545,9 @@
 
     .header__title-container {
         min-height: 823px;
+        margin: 0 auto;
         margin-bottom: 100px;
+        max-width: 1140px;
     }
 
     .header__title {

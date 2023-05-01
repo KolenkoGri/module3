@@ -149,6 +149,10 @@
 }
 
 @media (min-width:1440px) {
+    .request__container {
+        min-width: 1153px;
+    }
+    
     .request__title {
         min-height: 56px;
         font-size: 40px;
@@ -157,6 +161,7 @@
     }
     
     .request__figure {
+        justify-content: center;
         margin-bottom: 50px;
         column-gap: 20px;
         padding-left: 100px;
@@ -182,6 +187,7 @@
         min-height: 88px;
         font-size: 20px;
         line-height: 28px;
+        max-width: 680px;
     }
     
     .request__figure:last-child {
